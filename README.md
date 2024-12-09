@@ -1,36 +1,42 @@
+
 # Scooter Rental Application
-# Overview
 
-This project is a Scooter Rental Application developed using Android Studio with Java for the frontend and C# .NET for the backend. The database is managed using SQL Server Express. The application provides a beautiful and user-friendly interface designed entirely in code.
+## Overview
+This project is a **Scooter Rental Application** developed using **Android Studio** with **Java** for the frontend and **C# .NET** for the backend. The database is managed using **SQL Server Express**. The application provides a beautiful and user-friendly interface designed entirely in code.
 
-# Features
-# Admin Functionalities:
+## Features
 
-  View all scooters in the system.
+### Admin Functionalities:
+- View all scooters in the system.
+- Add new scooters to the fleet.
+- Delete scooters from the fleet.
 
-  Add new scooters to the fleet.
+### User Functionalities:
+- **Main Page:** Users can view available scooters upon logging in.
+- **Renting Scooters:** Users can rent scooters that are marked as available. *(Backend functionality fully implemented for this feature.)*
 
-  Delete scooters from the fleet.
+### Authentication:
+- The application uses **JWT Tokens** for secure authentication and authorization.
 
-# User Functionalities:
-  Main Page: Users can view available scooters upon logging in.\
-  
-  Renting Scooters: Users can rent scooters that are marked as available. (Backend functionality fully implemented for this feature.)
-# Authentication:
-The application uses JWT Tokens for secure authentication and authorization.
-# Highlights:
+## Highlights
+- Beautifully designed **UI** for all screens, including:
+  - Main screen.
+  - Login and Registration screens.
+  - Admin management screens.
 
-Beautifully designed UI for all screens, including:
+## Technical Details
+- **Backend API:** The backend is fully implemented in **C# .NET** and provides all necessary endpoints for admin operations and scooter rentals.
+- **Frontend Integration:** The app uses **Volley API** to communicate with the backend.
+- **IP Configuration:** Please note that the code will not function unless you replace the default IP address in the code with your own server's IP address.
 
-  Main screen.
-   
-  Login and Registration screens.
-  
-  Admin management screens.
-  
-# Technical Details:
-  Backend API: The backend is fully implemented in C# .NET and provides all necessary endpoints for admin operations and scooter rentals.
-  
-  Frontend Integration: The app uses Volley API to communicate with the backend.
+---
 
-  IP Configuration: Please note that the code will not function unless you replace the default IP address in the code with your own server's IP address.
+### How to Run
+1. Clone the repository to your local machine.
+2. Set up the backend using **C# .NET** and host it on your local machine or server.
+3. Update the IP address in the Android code to match your backend server's IP.
+4. Open the project in **Android Studio** and run the application on an emulator or physical device.
+
+---
+
+Enjoy exploring and expanding the Scooter Rental Application!
