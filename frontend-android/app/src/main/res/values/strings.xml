@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LuxDrive_1</string>
+    <string-array name="scooter_classes">
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+    </string-array>
+</resources>
