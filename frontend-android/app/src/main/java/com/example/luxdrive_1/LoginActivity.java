@@ -107,7 +107,7 @@ public class LoginActivity extends AppCompatActivity {
 
     //If I would use AuthUtils for request
 //    private void loginUser(String email, String password) {
-//        String url = "http://192.168.100.108:5001/api/users/login"; // Replace with your local server IP
+//        String url = "http://x.x.x.x:5001/api/users/login"; // Replace with your local server IP
 //
 //        JSONObject loginData = new JSONObject();
 //        try {
